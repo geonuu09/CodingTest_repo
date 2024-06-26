@@ -33,7 +33,7 @@ class Solution {
 
     private String readCountNum(String numStr) {
         StringBuilder ret = new StringBuilder();
-        int[] count = new int[10]; // 0-9까지 숫자의 출현 횟수를 셈
+        int[] count = new int[10]; // 0-9까지 숫자의 출현 횟수
 
         for (char c : numStr.toCharArray()) { // 각 숫자의 출현 횟수를 셈
             count[c - '0']++;
